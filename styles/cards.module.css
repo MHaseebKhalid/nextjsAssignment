@@ -1,0 +1,69 @@
+.main{
+    background-color:white;
+    height: 160px;
+    width: 400px;
+    border-radius: 10px;
+    display:flex;
+    flex-direction: column;
+    margin: 5px 5px 5px 5px;
+    box-shadow: -4px 2px 112px -32px rgba(0,0,0,0.92);
+    -webkit-box-shadow: -4px 2px 112px -32px rgba(0,0,0,0.92);
+    -moz-box-shadow: -4px 2px 112px -32px rgba(0,0,0,0.92);
+}
+.card {
+   display:flex;
+   flex:2.5;
+   align-items: center;
+   flex-direction: row;
+   justify-content: space-between;
+   padding-right: 20px;
+   padding-left: 20px;
+}
+.img{
+    border-radius: 50px;
+}
+.Name{
+    font-size: 15px;
+    font-weight: 600;
+}
+.role{
+    background-color: #D5F5F6;
+    color:#45848D;
+    padding:4px 4px 4px 4px;
+    border-radius: 50px;
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.desig{
+    color: #9EA6B2;
+    font-size: 16px;
+}
+.bottom{
+    height: 50px;
+    width: 400px;
+    border-top:1px solid #9EA6B2;
+    overflow: hidden;
+    flex:1;
+    display:flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-right: 10px;
+    padding-left: 10px;
+    }
+.btn{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.btnTxt{
+    font-size: 14;
+    font-weight: 600;
+    margin-left: 15px;
+}
+.verticleLine {
+    height: 100%;
+    width: 1px;
+    background-color: #9EA6B2;
+  }
